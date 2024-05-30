@@ -1,7 +1,7 @@
 function validateSyntax() {
   let input = document.getElementById("petInput").value;
-//   const inputStartsWith = /^pet_[a-zA-Z0-9]+$/;
-  //   const isAlphanumeric = /^[a-zA-Z0-9]+$/;
+  const inputStartsWith = /^pet_[a-zA-Z0-9]+$/;
+  // const isAlphanumeric = /^[a-zA-Z0-9]+$/;
   // let inputAfterStart = input.charAt(4)
   let result = ""; // Placeholder for validation result
   let i;
